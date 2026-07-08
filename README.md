@@ -272,9 +272,10 @@ Atualmente, o AETHER está em fase de concepção, documentação e prototipaç�
 Projeto desenvolvido por estudantes de Engenharia de Software da FIAP para a Global Solution 2026.
 
 ```md
-- Nome do integrante 1
-- Nome do integrante 2
-- Nome do integrante 3
+Arthur Canaverde da Cruz
+Isabella Jardim Marques
+Mayene Moura da Silva
+Murilo Canéstri dos Reis
 ```
 
 ---
