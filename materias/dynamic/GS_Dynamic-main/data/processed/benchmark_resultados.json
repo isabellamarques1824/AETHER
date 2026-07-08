@@ -1,0 +1,138 @@
+{
+  "forca_bruta": [
+    {
+      "algoritmo": "For\u00e7a Bruta",
+      "N": 5,
+      "tempo_ms": 0.0301,
+      "memoria_mb": 0.0012,
+      "operacoes": 5,
+      "caminhos_avaliados": 1,
+      "custo_otimo": 15.2
+    },
+    {
+      "algoritmo": "For\u00e7a Bruta",
+      "N": 8,
+      "tempo_ms": 0.0377,
+      "memoria_mb": 0.0018,
+      "operacoes": 12,
+      "caminhos_avaliados": 3,
+      "custo_otimo": 14.19
+    },
+    {
+      "algoritmo": "For\u00e7a Bruta",
+      "N": 10,
+      "tempo_ms": 0.1022,
+      "memoria_mb": 0.003,
+      "operacoes": 46,
+      "caminhos_avaliados": 11,
+      "custo_otimo": 14.51
+    },
+    {
+      "algoritmo": "For\u00e7a Bruta",
+      "N": 12,
+      "tempo_ms": 0.4004,
+      "memoria_mb": 0.0041,
+      "operacoes": 230,
+      "caminhos_avaliados": 12,
+      "custo_otimo": 6.13
+    }
+  ],
+  "dijkstra": [
+    {
+      "algoritmo": "Dijkstra",
+      "N": 5,
+      "tempo_ms": 0.0311,
+      "memoria_mb": 0.0012,
+      "operacoes": 13,
+      "arestas_relaxadas": 8,
+      "insercoes_heap": 5,
+      "custo_otimo": 15.2
+    },
+    {
+      "algoritmo": "Dijkstra",
+      "N": 8,
+      "tempo_ms": 0.0364,
+      "memoria_mb": 0.0017,
+      "operacoes": 27,
+      "arestas_relaxadas": 18,
+      "insercoes_heap": 9,
+      "custo_otimo": 14.19
+    },
+    {
+      "algoritmo": "Dijkstra",
+      "N": 10,
+      "tempo_ms": 0.0424,
+      "memoria_mb": 0.0017,
+      "operacoes": 38,
+      "arestas_relaxadas": 26,
+      "insercoes_heap": 12,
+      "custo_otimo": 14.51
+    },
+    {
+      "algoritmo": "Dijkstra",
+      "N": 12,
+      "tempo_ms": 0.0518,
+      "memoria_mb": 0.0027,
+      "operacoes": 46,
+      "arestas_relaxadas": 34,
+      "insercoes_heap": 12,
+      "custo_otimo": 6.13
+    },
+    {
+      "algoritmo": "Dijkstra",
+      "N": 20,
+      "tempo_ms": 0.1175,
+      "memoria_mb": 0.0046,
+      "operacoes": 78,
+      "arestas_relaxadas": 56,
+      "insercoes_heap": 22,
+      "custo_otimo": 13.74
+    },
+    {
+      "algoritmo": "Dijkstra",
+      "N": 50,
+      "tempo_ms": 0.28,
+      "memoria_mb": 0.0109,
+      "operacoes": 213,
+      "arestas_relaxadas": 156,
+      "insercoes_heap": 57,
+      "custo_otimo": 16.1
+    },
+    {
+      "algoritmo": "Dijkstra",
+      "N": 100,
+      "tempo_ms": 0.6692,
+      "memoria_mb": 0.0283,
+      "operacoes": 426,
+      "arestas_relaxadas": 314,
+      "insercoes_heap": 112,
+      "custo_otimo": 14.84
+    }
+  ],
+  "gaps": [
+    {
+      "N": 5,
+      "custo_fb": 15.2,
+      "custo_dijkstra": 15.2,
+      "gap_percentual": 0.0
+    },
+    {
+      "N": 8,
+      "custo_fb": 14.19,
+      "custo_dijkstra": 14.19,
+      "gap_percentual": 0.0
+    },
+    {
+      "N": 10,
+      "custo_fb": 14.51,
+      "custo_dijkstra": 14.51,
+      "gap_percentual": 0.0
+    },
+    {
+      "N": 12,
+      "custo_fb": 6.13,
+      "custo_dijkstra": 6.13,
+      "gap_percentual": 0.0
+    }
+  ]
+}

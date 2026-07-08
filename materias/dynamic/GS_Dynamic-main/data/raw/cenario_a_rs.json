@@ -1,0 +1,36 @@
+{
+  "descricao": "Cenário A — Rede de resposta a enchentes no Rio Grande do Sul (2024)",
+  "fonte": "Dados sintéticos baseados em malha viária DNIT + Defesa Civil RS",
+  "municipios": [
+    {"id": 4314902, "nome": "Porto Alegre",    "indice_risco": 0.72, "custo_atendimento": 1850.0, "populacao": 1400000},
+    {"id": 4300406, "nome": "Alegrete",        "indice_risco": 0.55, "custo_atendimento": 620.0,  "populacao": 77000},
+    {"id": 4307005, "nome": "Caxias do Sul",   "indice_risco": 0.48, "custo_atendimento": 980.0,  "populacao": 435000},
+    {"id": 4316808, "nome": "Santa Maria",     "indice_risco": 0.61, "custo_atendimento": 730.0,  "populacao": 275000},
+    {"id": 4309209, "nome": "Gramado",         "indice_risco": 0.39, "custo_atendimento": 410.0,  "populacao": 37000},
+    {"id": 4310801, "nome": "Lajeado",         "indice_risco": 0.83, "custo_atendimento": 540.0,  "populacao": 80000},
+    {"id": 4313409, "nome": "Passo Fundo",     "indice_risco": 0.44, "custo_atendimento": 660.0,  "populacao": 200000},
+    {"id": 4321204, "nome": "Uruguaiana",      "indice_risco": 0.58, "custo_atendimento": 580.0,  "populacao": 120000},
+    {"id": 4318705, "nome": "São Leopoldo",    "indice_risco": 0.77, "custo_atendimento": 490.0,  "populacao": 215000},
+    {"id": 4302105, "nome": "Bento Gonçalves", "indice_risco": 0.41, "custo_atendimento": 450.0,  "populacao": 110000},
+    {"id": 4305108, "nome": "Canoas",          "indice_risco": 0.79, "custo_atendimento": 520.0,  "populacao": 340000},
+    {"id": 4306403, "nome": "Cruz Alta",       "indice_risco": 0.52, "custo_atendimento": 600.0,  "populacao": 60000}
+  ],
+  "arestas": [
+    {"origem": 4314902, "destino": 4300406, "peso": 5.2},
+    {"origem": 4314902, "destino": 4316808, "peso": 2.9},
+    {"origem": 4314902, "destino": 4318705, "peso": 0.8},
+    {"origem": 4314902, "destino": 4305108, "peso": 0.5},
+    {"origem": 4316808, "destino": 4307005, "peso": 2.1},
+    {"origem": 4316808, "destino": 4313409, "peso": 1.8},
+    {"origem": 4316808, "destino": 4321204, "peso": 3.4},
+    {"origem": 4307005, "destino": 4309209, "peso": 1.2},
+    {"origem": 4307005, "destino": 4302105, "peso": 0.9},
+    {"origem": 4310801, "destino": 4318705, "peso": 1.1},
+    {"origem": 4310801, "destino": 4307005, "peso": 2.5},
+    {"origem": 4313409, "destino": 4306403, "peso": 1.5},
+    {"origem": 4300406, "destino": 4321204, "peso": 2.8},
+    {"origem": 4305108, "destino": 4318705, "peso": 0.6},
+    {"origem": 4309209, "destino": 4302105, "peso": 0.7}
+  ],
+  "hub_origem": 4314902
+}

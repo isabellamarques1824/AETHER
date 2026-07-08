@@ -1,0 +1,37 @@
+{
+  "descricao": "Cenário B — Triagem de risco de seca no MATOPIBA (MA, TO, PI, BA)",
+  "fonte": "Dados sintéticos baseados em NDVI MODIS/NASA + INMET precipitação 2023",
+  "municipios": [
+    {"id": 2111300, "nome": "Imperatriz",       "indice_risco": 0.68, "custo_atendimento": 710.0,  "populacao": 258000, "ndvi": 0.32, "precipitacao_mm": 980},
+    {"id": 1721000, "nome": "Palmas",           "indice_risco": 0.51, "custo_atendimento": 860.0,  "populacao": 310000, "ndvi": 0.41, "precipitacao_mm": 1250},
+    {"id": 2207702, "nome": "Teresina",         "indice_risco": 0.74, "custo_atendimento": 920.0,  "populacao": 868000, "ndvi": 0.27, "precipitacao_mm": 780},
+    {"id": 2910800, "nome": "Barreiras",        "indice_risco": 0.88, "custo_atendimento": 640.0,  "populacao": 160000, "ndvi": 0.19, "precipitacao_mm": 560},
+    {"id": 2105302, "nome": "Balsas",           "indice_risco": 0.82, "custo_atendimento": 580.0,  "populacao": 96000,  "ndvi": 0.22, "precipitacao_mm": 630},
+    {"id": 1716208, "nome": "Porto Nacional",   "indice_risco": 0.59, "custo_atendimento": 490.0,  "populacao": 53000,  "ndvi": 0.38, "precipitacao_mm": 1100},
+    {"id": 2209153, "nome": "Uruçuí",           "indice_risco": 0.91, "custo_atendimento": 420.0,  "populacao": 46000,  "ndvi": 0.16, "precipitacao_mm": 480},
+    {"id": 2900702, "nome": "Luís Eduardo",     "indice_risco": 0.86, "custo_atendimento": 550.0,  "populacao": 75000,  "ndvi": 0.18, "precipitacao_mm": 510},
+    {"id": 2104701, "nome": "Codó",             "indice_risco": 0.63, "custo_atendimento": 380.0,  "populacao": 118000, "ndvi": 0.35, "precipitacao_mm": 900},
+    {"id": 1718402, "nome": "Araguaína",        "indice_risco": 0.46, "custo_atendimento": 760.0,  "populacao": 175000, "ndvi": 0.44, "precipitacao_mm": 1380},
+    {"id": 2206720, "nome": "Picos",            "indice_risco": 0.78, "custo_atendimento": 410.0,  "populacao": 77000,  "ndvi": 0.24, "precipitacao_mm": 620},
+    {"id": 2918407, "nome": "Ibotirama",        "indice_risco": 0.93, "custo_atendimento": 310.0,  "populacao": 26000,  "ndvi": 0.14, "precipitacao_mm": 420}
+  ],
+  "arestas": [
+    {"origem": 2111300, "destino": 1718402, "peso": 3.1},
+    {"origem": 2111300, "destino": 2105302, "peso": 4.2},
+    {"origem": 1721000, "destino": 1716208, "peso": 1.2},
+    {"origem": 1721000, "destino": 1718402, "peso": 2.8},
+    {"origem": 2207702, "destino": 2209153, "peso": 5.1},
+    {"origem": 2207702, "destino": 2206720, "peso": 2.3},
+    {"origem": 2207702, "destino": 2104701, "peso": 3.7},
+    {"origem": 2910800, "destino": 2900702, "peso": 1.4},
+    {"origem": 2910800, "destino": 2918407, "peso": 2.6},
+    {"origem": 2105302, "destino": 2209153, "peso": 3.8},
+    {"origem": 2105302, "destino": 2900702, "peso": 5.5},
+    {"origem": 1716208, "destino": 1718402, "peso": 2.1},
+    {"origem": 2206720, "destino": 2209153, "peso": 2.9},
+    {"origem": 2104701, "destino": 2111300, "peso": 2.5},
+    {"origem": 2918407, "destino": 2900702, "peso": 1.8}
+  ],
+  "hub_origem": 1721000,
+  "orcamento_max_horas": 15.0
+}

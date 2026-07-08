@@ -180,8 +180,6 @@ AETHER/
     ├── database/
     │   └── README.md
     │
-    ├── data-science/
-    │   └── README.md
     │
     ├── network/
     │   └── README.md
