@@ -118,15 +118,9 @@ Foram criados materiais visuais para representar como o AETHER poderia funcionar
 * Robô assistente do sistema;
 * Modos operacionais do AETHER.
 
-### Imagens do protótipo
+### Imagem do protótipo
 
-
-```md
-![Protótipo do AETHER](./assets/aether-prototipo.png)
-![Modos do sistema](./assets/aether-modos.png)
-![Aplicações terrestres](./assets/aether-terra.png)
-![Aplicações espaciais](./assets/aether-espaco.png)
-```
+![Protótipo do AETHER](./imagens/prototipo.png)
 
 ---
 
