@@ -154,7 +154,7 @@ Implementação inicial do protótipo, estruturação das classes, aplicação d
 
 ---
 
-## Estrutura sugerida do repositório
+## Estrutura do repositório
 
 ```bash
 AETHER/
@@ -162,10 +162,10 @@ AETHER/
 ├── README.md
 │
 ├── imagens/
-│   ├── aether-prototipo.png
-│   ├── modos-aether.png
-│   ├── aplicacoes-terra.png
-│   └── aplicacoes-espaco.png
+│   └── aether-prototipo.png
+│   
+│   
+│   
 │
 └── materias/
     ├── agile/
